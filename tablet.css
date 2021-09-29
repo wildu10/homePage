@@ -1,0 +1,261 @@
+
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+header h1 {
+    font-size: 3.6rem;
+}
+header span {
+    display: none;
+}
+header .nav-ul {
+    display: flex;
+}
+header .nav-ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+header .nav-ul a {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color: #333333;
+    text-decoration: none;
+}
+/* Unhappy with your website? */
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.first-Section {
+    max-width: 580px;
+    margin-top: 104px;
+    margin-left: calc(50% - 440px);
+}
+.first-Section span {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+.font-h2 {
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+}
+/* backgound image */
+.img-section {
+    width: 94%;
+    max-width: 1332px;
+}
+.background-img {
+    width: 100%;
+    min-width: 680px;
+    max-width: 1332px;
+    height: 354px;
+    margin: 0 auto;
+}
+/* Story */
+.story {
+    width: 90%;
+    margin-left: calc(50% - 440px);
+}
+.font-h2 {
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+}
+.story p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+/* join to email */
+.join {
+    width: 80%;
+    margin-top: 30px;
+    margin-left: calc(50% - 440px);
+}
+.join span {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+.join div {
+    width: 350px;
+    height: 57px;
+}
+.join input {
+    width: 225px; 
+    height: 35px;
+    margin: auto 10px;
+    font-size: 1.4rem;
+}
+.join button {
+    width: 94px;
+    height: 49px;
+    font-size: 1.8rem;
+} 
+
+/* Card section */
+.card-section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 20px 341px 341px 341px;
+    grid-template-rows: 113px 427px;
+    grid-gap: 20px 30px;
+}
+.offer {
+    margin: 0;
+    padding: 0;
+    grid-area: 1 / 1 / 2 / 5;
+}
+.card1 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.card2 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+.card3 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+/* tittle design card */
+.tittle-card-design {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+/* card section */
+.good-design {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 548px 548px;
+    grid-template-rows: repeat(50, 30px);
+    grid-column-gap: 6px;
+}
+.design-images figure {
+    width: 545px;
+    height: 545px;
+    margin: 0 auto;
+}
+.design-images img {
+    width: 545px;
+    height: 545px;
+    border-radius: 24px;
+    object-fit: contain;
+}
+.design-image1 {
+    margin: 0;
+    padding: 0;
+    grid-area: 7 / 1 / 25 / 2;
+}
+.design-image2 {
+    margin: 0;
+    padding: 0;
+    grid-area: 1 / 2 / 18 / 3;
+}
+.design-image3 {
+    margin: 0;
+    padding: 0;
+    grid-area: 30 / 1 / 48 / 2;
+}
+.design-image4 {
+    margin: 0;
+    padding: 0;
+    grid-area: 26 / 2 / 44 / 3;
+}
+.design-images figcaption {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+.design-images span {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+.see-more {
+    width: 100%;
+    grid-area: 49 / 2 / 50 / 3;
+    text-align: end;
+}
+.see-more p {
+    font-size: 2.4rem;
+}
+.see-more .arrow-icon {
+    width: 23px;
+    height: 12px;
+    margin-left: 8px;
+
+} 
+
+/* Meet the team */
+.team {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.photo-team {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 325px 296px;
+    grid-template-rows: repeat(20, 30px);
+    grid-column-gap: 8px;
+}
+.photo-team .image1-team {
+    width: 320px;
+    height: 320px;
+    grid-area: 5 / 1 / 16 / 2;
+}
+.photo-team .image2-team {
+    width: 260px;
+    height: 260px;
+    grid-area: 1 / 2 / 5 / 3;
+}
+.photo-team .image3-team {
+    width: 291px;
+    height: 300px;
+    grid-area: 10 / 2 / 21 / 3;
+}
+
+/* The decorate */
+.the-decorate {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.the-decorate p {
+    width: 900px;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+}
+
+/* footer */
+footer {
+    margin-top: 180px;
+    padding-top: 60px;
+}
+.footer-contact-us {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social-networks h2 {
+    margin: 0;
+}
+.footer-social-networks span {
+    margin: 0;
+}
+.footer-search {
+    width: 291px;
+    margin: 0;
+}
+.footer-username {
+    padding-bottom: 50px;
+}
